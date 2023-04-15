@@ -34,8 +34,8 @@ if (document.body.clientWidth > 992) {
                 borderRadius: 5 + 'px',
                 right: 60 + 'px',
                 // 这里可以换为你喜欢的图片，例如我就换为了雪人，但是要抠图
-                nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
-                hoverMsg: "喵喵喵~",
+                nekoImg: "https://picbed.vimcovan.com/img/Kisume.png",
+                hoverMsg: "你好",
                 color: "#6f42c1",
                 during: 500,
                 blog_body: "body",
@@ -121,7 +121,7 @@ if (document.body.clientWidth > 992) {
         //部分自定义
         
         $("#myscoll").nekoScroll({
-            bgcolor: 'rgb(0 0 0 / .5)', //背景颜色，没有绳子背景图片时有效
+            bgcolor: 'rgb(219 173 102 / .5)', //背景颜色，没有绳子背景图片时有效
             borderRadius: '2em',
             zoom: 0.9
         }
